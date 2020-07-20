@@ -11,10 +11,9 @@ pipeline {
     }
 
     stage('Main') {
-      steps { 
+      steps {
         echo 'Hello world!'
       }
     }
   }
 }
-
