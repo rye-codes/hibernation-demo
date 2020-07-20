@@ -9,6 +9,11 @@ pipeline {
         checkout scm
       }
     }
+
+    stage('Main') {
+      steps {
+        echo 'Hello world!'
+      }
+    }
   }
 }
-
