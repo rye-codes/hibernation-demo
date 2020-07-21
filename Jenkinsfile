@@ -15,5 +15,12 @@ pipeline {
         echo 'Hello world!'
       }
     }
+
+    stage('Test') {
+      steps {
+        sh 'sleep 30'
+        sh 'exit 1'
+      }
+    }
   }
 }
