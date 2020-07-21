@@ -4,12 +4,6 @@ pipeline {
   }
 
   stages {
-    stage('Clone') {
-      steps {
-        checkout scm
-      }
-    }
-
     stage('Main') {
       steps {
         echo 'Hello world!'
