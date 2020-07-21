@@ -12,7 +12,6 @@ pipeline {
 
     stage('Test') {
       steps {
-        sh 'sleep 15'
         sh 'exit 0'
       }
     }
